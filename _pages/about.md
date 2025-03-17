@@ -1,32 +1,34 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
-# subtitle: Assistant Professor, Computer Science, Furman University
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-      <p>fahad.sultan@furman.edu</p>
-      <p>864.294.3219</p>
-      <p>200-D Riley Hall</p>
-      <p>Computer Science Dept.</p>
-      <p>3300 Poinsett Highway</p>
-      <p>Greenville, SC 29613</p>
-      <p><a href="https://calendly.com/ssultan-dpq/">Schedule an appointment</a></p>
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
-news: false  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! 👋🏾 Welcome to my little corner of the internet 🌐. 
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-I am an Assistant Professor in the [Computer Science 💻 Department](https://www.furman.edu/academics/computer-science/) at [Furman University](https://www.furman.edu) <b>🏫</b>.
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-I received my PhD 🎓 from [Stony Brook University](https://www.stonybrook.edu/) in New York 🗽 advised by [Dr. Steven Skiena](https://en.wikipedia.org/wiki/Steven_Skiena) and [Dr. Lilianne Mujica Parodi](https://www.lcneuro.org/mujicaparodi).
-
-My primary interests lie in computer programming 🖥️, mathematics 🔢, and visualizations 🎨, especially in relation to temporal 📈, spatial 🌎, and network 🕸️ data. These interests frequently intersect in my research, which spans data science 📊, machine learning 🤖, computational neuroscience 🧠, and computational social science ⚖️.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
